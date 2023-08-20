@@ -7,7 +7,7 @@ import tempfile
 
 import librosa
 import numpy as np
-from tensorflow.python.keras.models import load_model
+from keras.models import load_model
 
 
 def std_normalizer(data):
@@ -47,7 +47,7 @@ class KeyClassifier:
             midi = index + 12
             if minor:
                 midi = index - 12
-            tonic = librosa.midi_to_note(midi=midi, octave=False)
+            tonic = librosa.midi_to_note(midi, octave=False)
             mode = 'minor' if minor else 'major'
             return tonic, mode
 
