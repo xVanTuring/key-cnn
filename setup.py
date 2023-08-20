@@ -77,12 +77,12 @@ classifiers = ['Development Status :: 3 - Alpha',
 
 # requirements
 requirements = ['scipy>=1.0.1',
-                'numpy==1.16.0',
-                'tensorflow==1.15.2',
-                'librosa==0.6.2',
-                'jams>=0.3.1',
-                'matplotlib>=3.0.0',
-                'h5py>=2.7.0',
+                'numpy==1.23.5',
+                # 'tensorflow==1.15.2', # install by yourself
+                'librosa==0.10.1',
+                'jams>=0.3.4',
+                'matplotlib>=3.7.2',
+                'h5py>=3.9.0',
                 ]
 
 # docs to be included
