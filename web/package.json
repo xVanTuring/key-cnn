@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.5",
+    "@ffmpeg/util": "^0.12.0",
     "@tensorflow/tfjs": "^4.10.0",
-    "@tensorflow/tfjs-backend-webgpu": "^4.10.0"
+    "@tensorflow/tfjs-backend-webgpu": "^4.10.0",
+    "audiobuffer-to-wav": "^1.0.0",
+    "ffmpeg.js": "^4.2.9003",
+    "mpg123-decoder": "^0.4.8"
   },
   "devDependencies": {
-    "buffer": "^6.0.3",
+    "@types/audiobuffer-to-wav": "^1.0.2",
     "parcel": "^2.9.3",
-    "parcel-reporter-static-files-copy": "^1.5.2",
-    "process": "^0.11.10"
+    "parcel-reporter-static-files-copy": "^1.5.2"
   },
   "scripts": {
     "start": "parcel ./index.html"
